@@ -35,6 +35,7 @@
     font-size: 12px;
 }
 
-.svgBottomBar path:hover{
+.active{
+    fill: aqua;
     stroke: aqua;
 }
