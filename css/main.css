@@ -55,8 +55,11 @@ button {
     width: 355px;
     height: 58px;
 
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
 
     font-size: 24px;
 }
